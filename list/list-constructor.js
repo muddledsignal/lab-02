@@ -24,4 +24,23 @@ List.prototype.pop = function() {
   return returnValue;
 };
 
+/**
+ * // Execute a provided function once for each array element
+ * @returns {*}
+ */
+
+// List.prototype.forEach = function(functionCallback, value, idx) {
+//   for(idx = 0; idx < List.length; idx++) {
+//     functionCallback(value, idx);
+//   }
+  // let returnValue = List.data[idx];
+  // return returnValue;
+// };
+
+List.prototype.for = function(value) {
+  for (let i = 0; i < List.length; i++) {
+    console.log(List.data[i]);
+  }
+};
+
 module.exports = List;
