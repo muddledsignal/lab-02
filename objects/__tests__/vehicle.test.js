@@ -1,6 +1,6 @@
 'use strict';
 
-const Vehicle = require('../vehicle-class.js');
+const Vehicle = require('../constructor.js');
 
 describe('Vehicles', () => {
 
